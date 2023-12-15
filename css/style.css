@@ -81,7 +81,7 @@ nav{
 .left-btn{
     justify-content: flex-start;
 
-    width: 300px;
+    width: 24%;
 }
 
 .center-btn{
@@ -94,7 +94,7 @@ nav{
     color: red;
     background-color: #4a4a4a;
 
-    width: 150px;
+    width: 12%;
     height: 100%;
 
     padding: 25px 20px;
