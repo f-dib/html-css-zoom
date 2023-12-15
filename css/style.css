@@ -76,12 +76,36 @@ main{
 }
 
 .stream{
-    height: 100px;
+    position: relative;
+
+    /* height: 100px; */
     width: calc(100% / 7 - 3px * 7/6);
-    min-width: 100px;
+    min-width: 150px;
     margin-bottom: 15px;
 
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.stream img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile-info{
+    display: flex;
+    position: absolute;
+
+    left: 0px;
+    bottom: 3px;
+
+    gap: 5px;
+
+    padding: 3px;
+
+    font-size: 0.7em;
+
+    color: white;
+    background-color: rgba(59, 59, 59, 0.4);
 }
 /* end main */
 
